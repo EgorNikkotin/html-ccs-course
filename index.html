@@ -3,29 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
     <!-- Шапка сайта\навигация по сайту -->
-    <header>
-        <nav>
-            <a href="">Web Studio</a>
-        <ul>
-            <li>
-                <a href=""></a>Студия
-            </li>
+    <header class="">
+        <a href="" class="logo">Web Studio</a>
 
-            <li>
-                <a href=""></a>Портфолио
-            </li>
+        <nav class="list title-nav">
+            <ul class="">
+                <li>
+                    <a href="./index.html" class="link-nav current">Студия</a>
+                </li>
 
-            <li>
-                <a href=""></a>Контакты
-            </li>
-        </ul>
+                <li>
+                    <a href="./portfolio.html">Портфолио</a>
+                </li>
+
+                <li>
+                    <a href="">Контакты</a>
+                </li>
+            </ul>
         </nav>
         
-        <ul>
+        <ul class="feedback-button">
             <li> 
                 <a href="" aria-label="Иконка почты">Почта </a>
                 <a href="">info@devstudio.com</a>
@@ -40,66 +42,66 @@
 
     <main>
         <!-- her0 -->
-        <section>
-            <h1>Эффективные решения для вашего бизнеса</h1>
-            <a href="">Заказать услугу</a>
+        <section class="hero">
+            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+            <a href="" class="hero-button">Заказать услугу</a>
         </section>
 
 
     <!-- Особенности -->
         <section>
-            <h2>Особенности</h2>
-            <ul>
+            <h2><em>Особенности</em></h2>
+            <ul >
                 <li>
-                    <a href="" aria-label="Иконка спутника">спутник</a>
-                    <h3>Внимание к деталям</h3>
-                    <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    <a href="" aria-label="Иконка спутника" class="bg-color">спутник</a>
+                    <h3 class="title-color">Внимание к деталям</h3>
+                    <p class="text-color">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
                 <li>
-                    <a href="" aria-label="Иконка часов">Часы</a>
-                    <h3>Пунктуальность</h3>
-                    <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    <a href="" aria-label="Иконка часов" class="bg-color">Часы</a>
+                    <h3 class="title-color">Пунктуальность</h3>
+                    <p class="text-color">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
                 <li>
-                    <a href="" aria-label="Иконка диаграммы">Диаграмма</a>
-                    <h3>Планирование</h3>
-                    <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    <a href="" aria-label="Иконка диаграммы" class="bg-color">Диаграмма</a>
+                    <h3 class="title-color">Планирование</h3>
+                    <p class="text-color">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
                 <li>
-                    <a href="" aria-label="Иконка астронавта">Астронавт</a>
-                    <h3>Современные технологии</h3>
-                    <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    <a href="" aria-label="Иконка астронавта" class="bg-color">Астронавт</a>
+                    <h3 class="title-color">Современные технологии</h3>
+                    <p class="text-color">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
         </section>
 
     <!-- Чем мы занимаемся -->
         <section>
-            <h2>Чем мы занимаемся</h2>
+            <h2  class="title-color">Чем мы занимаемся</h2>
             <ul>
                 <li>
                     <img src="./images/desktop-dev.jpg" alt="">
-                    <p>Десктопные приложения</p>
+                    <p class="title-headline">Десктопные приложения</p>
                 </li>
                 <li>
                     <img src="./images/box.jpg" alt="">
-                    <p>Мобильные приложения</p>
+                    <p class="title-headline">Мобильные приложения</p>
                 </li>
                 <li>
                     <img src="./images/desiner.jpg" alt="">
-                    <p>Дизайнерские решения</p>
+                    <p class="title-headline">Дизайнерские решения</p>
                 </li>
             </ul>
         </section>
 
         <!-- Наша команда -->
         <section>
-            <h2>Наша команда</h2>
+            <h2 class="title-color">Наша команда</h2>
             <ul>
                 <li>
                     <img src="./images/photo1.jpg" alt="">
-                    <h3>Николай Кучеренко</h3>
-                    <p>Product Designer</p>
+                    <h3 class="title-color">Николай Кучеренко</h3>
+                    <p class="text-color">   Product Designer</p>
                     <ul>
                         <li><a href="" aria-label="instagram icon">instagram</a></li>
                         <li><a href="" aria-label="twitter icon">twitter</a></li>
@@ -111,8 +113,8 @@
 
                 
                     <img src="./images/photo2.jpg" alt="">
-                    <h3>Ольга Иванова</h3>
-                    <p>Frontend Developer</p>
+                    <h3 class="title-color">Ольга Иванова</h3>
+                    <p class="text-color">Frontend Developer</p>
                     <ul>
                         <li><a href="" aria-label="instagram icon">instagram</a></li>
                         <li><a href="" aria-label="twitter icon">twitter</a></li>
@@ -122,8 +124,8 @@
                     
                     <li>
                         <img src="./images/photo3.jpg" alt="">
-                        <h3>Андрей Шевченко</h3>
-                        <p>Marketing</p>
+                        <h3 class="title-color">Андрей Шевченко</h3>
+                        <p class="text-color">Marketing</p>
                         <ul>
                             <li><a href="" aria-label="instagram icon">instagram</a></li>
                             <li><a href="" aria-label="twitter icon">twitter</a></li>
@@ -135,8 +137,8 @@
 
                     <li>
                         <img src="./images/photo4.jpg" alt="">
-                        <h3>Иван Николаев</h3>
-                        <p>UI Designer</p>
+                        <h3 class="title-color">Иван Николаев</h3>
+                        <p class="text-color">UI Designer</p>
                         <ul>
                             <li><a href="" aria-label="instagram icon">instagram</a></li>
                             <li><a href="" aria-label="twitter icon">twitter</a></li>
@@ -153,7 +155,7 @@
 
         <!-- Постоянные клиенты -->
         <section>
-            <h2>Постоянные клиенты</h2>
+            <h2 class="title-color">Постоянные клиенты</h2>
             <ul>
                 <li>
                     <a href="">
@@ -194,12 +196,12 @@
 <footer>
     <a href="">Web Studio</a>
     <ul>
-        <li>г. Киев, пр-т Леси Украинки, 26</li>
-        <li>info@example.com</li>
-        <li>+38 099 111 11 11</li>
+        <li class="text-adress">г. Киев, пр-т Леси Украинки, 26</li>
+        <li class="text-color">info@example.com</li>
+        <li class="text-color">+38 099 111 11 11</li>
     </ul>
     
-    <p>присоединяйтесь</p>
+    <p class="title-headline">присоединяйтесь</p>
     <ul>
         <li><a href="" aria-label="instagram icon">instagram</a></li>
         <li><a href="" aria-label="twitter icon">twitter</a></li>
@@ -207,8 +209,8 @@
         <li><a href="" aria-label="In icon">in</a></li> 
     </ul>
 
-    <p>Подпишитесь на рассылку</p>
-    <button></button>
+    <p class="title-headline">Подпишитесь на рассылку</p>
+    <p class="hero-button">Подписаться</p>
     
 </footer>
 

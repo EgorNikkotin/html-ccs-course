@@ -1,0 +1,53 @@
+:root{
+    --primary-color: #757575;
+    --first-color: #212121;
+    --hover-blue-color: #2196F3;
+    --white-color: #ffffff; 
+    --background-color: #F5F4FA;
+
+}
+
+body{
+    background-color: aqua;
+}
+
+/* Селектор уборки точек */
+ul{
+    list-style: none;
+}
+
+/* Цвет заголовков */
+.title-color{
+    color: var(--first-color);
+}
+/* Цвет текста, предложение под заголовком */
+.text-color{
+    color: var(--primary-color);
+}
+
+/*  */
+.link-nav.current{
+    color: var(--hover-blue-color);
+
+}
+
+.hero-title{
+    color: var(--white-color);
+
+}
+.hero-button{
+    color: var(--white-color);
+    background-color: var(--hover-blue-color);
+}
+
+.bg-color{
+    background-color: var(--background-color);
+}
+
+.title-headline{
+    color: var(--white-color);
+}
+
+.text-adress{
+    color: var(--white-color);
+}
