@@ -7,8 +7,21 @@
 
 }
 
+/* Глобальные свойства */
 body{
     background-color: aqua;
+
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.3;
+}
+
+a{
+    text-decoration: none;
+}
+
+.bg-color{
+    background-color: var(--background-color);
 }
 
 /* Селектор уборки точек */
@@ -16,38 +29,104 @@ ul{
     list-style: none;
 }
 
-/* Цвет заголовков */
-.title-color{
+/* Свойства логотипа */
+.logo{
+
+    color: #2196F3;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+   
+}
+
+.logo-studio{
+
+    color: black;
+}
+
+/* свойства навигации */
+.title-nav{
+    font-weight: 500;
     color: var(--first-color);
+    font-size: 14px;
+}
+
+/* Выбранная страница */
+.link-nav.current{
+    color: var(--hover-blue-color);
+    font-size: 14px;
+}
+
+
+/* Заголовки */
+.title-heading-center{
+    color: var(--first-color);
+    text-align: center;
+    font-size: 36px;
 }
 /* Цвет текста, предложение под заголовком */
 .text-color{
     color: var(--primary-color);
 }
 
-/*  */
-.link-nav.current{
-    color: var(--hover-blue-color);
-
+.feedback-button{
+    font-weight: 500;
+    color: var(--primary-color);
 }
+
+
+/* her0 */
 
 .hero-title{
     color: var(--white-color);
-
+    text-align: center;
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: 0.6;
 }
 .hero-button{
     color: var(--white-color);
     background-color: var(--hover-blue-color);
+    /* хуй его знает как выровнять кнопку */
+    text-align: center; 
+    font-size: 16px;
 }
 
-.bg-color{
-    background-color: var(--background-color);
+/* Особенности */
+
+.title-features{
+    font-weight: 700;
+    font-size: 14px;
+
+}
+/* Свойства описание особенностей */
+.description-features{
+    font-size: 14px;
+}
+
+/* свойства "Наша команда" */
+.title-team{
+    font-weight: 500;
+    font-size: 16px;
+}
+.text-team{
+    font-size: 16px;
+}
+
+/* footer */
+.footer-adress{
+    font-size: 14px;
+    line-height: 1.7;
 }
 
 .title-headline{
     color: var(--white-color);
+    font-weight: 700;
+    font-size: 14px;
+    
 }
 
 .text-adress{
     color: var(--white-color);
 }
+

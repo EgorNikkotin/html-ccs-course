@@ -4,38 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная страница</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Sixtyfour&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/index.css">
+    
+    
+
+
+
+
 </head>
 <body>
     <!-- Шапка сайта\навигация по сайту -->
     <header class="">
-        <a href="" class="logo">Web Studio</a>
+        <a href="" class="logo">
+            <div>Web</div> 
+            <div class="logo-studio">Studio</div> 
+        </a>
 
-        <nav class="list title-nav">
-            <ul class="">
+        <nav class="">
+            <ul>
                 <li>
-                    <a href="./index.html" class="link-nav current">Студия</a>
+                    <a href="./index.html" class=" title-nav link-nav current">Студия</a>
                 </li>
 
                 <li>
-                    <a href="./portfolio.html">Портфолио</a>
+                    <a href="./portfolio.html" class="title-nav">Портфолио</a>
                 </li>
 
                 <li>
-                    <a href="">Контакты</a>
+                    <a href="" class="title-nav">Контакты</a>
                 </li>
             </ul>
         </nav>
         
-        <ul class="feedback-button">
+        <ul>
             <li> 
                 <a href="" aria-label="Иконка почты">Почта </a>
-                <a href="">info@devstudio.com</a>
+                <a href="" class="feedback-button">info@devstudio.com</a>
             </li>
 
             <li>
                 <a href="" aria-label="Иконка телефона">Телефон</a>
-                <a href="">+38 096 111 11 11</a>
+                <a href="" class="feedback-button">+38 096 111 11 11</a>
             </li>
         </ul>
     </header>
@@ -54,30 +67,30 @@
             <ul >
                 <li>
                     <a href="" aria-label="Иконка спутника" class="bg-color">спутник</a>
-                    <h3 class="title-color">Внимание к деталям</h3>
-                    <p class="text-color">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    <h3 class="title-color title-features">Внимание к деталям</h3>
+                    <p class="text-color description-features">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
                 <li>
                     <a href="" aria-label="Иконка часов" class="bg-color">Часы</a>
-                    <h3 class="title-color">Пунктуальность</h3>
-                    <p class="text-color">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    <h3 class="title-color title-features" >Пунктуальность</h3>
+                    <p class="text-color description-features">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
                 <li>
                     <a href="" aria-label="Иконка диаграммы" class="bg-color">Диаграмма</a>
-                    <h3 class="title-color">Планирование</h3>
-                    <p class="text-color">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    <h3 class="title-color title-features" >Планирование</h3>
+                    <p class="text-color description-features">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
                 <li>
                     <a href="" aria-label="Иконка астронавта" class="bg-color">Астронавт</a>
-                    <h3 class="title-color">Современные технологии</h3>
-                    <p class="text-color">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    <h3 class="title-color title-features">Современные технологии</h3>
+                    <p class="text-color description-features">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
         </section>
 
     <!-- Чем мы занимаемся -->
         <section>
-            <h2  class="title-color">Чем мы занимаемся</h2>
+            <h2  class="title-heading-center ">Чем мы занимаемся</h2>
             <ul>
                 <li>
                     <img src="./images/desktop-dev.jpg" alt="">
@@ -96,12 +109,12 @@
 
         <!-- Наша команда -->
         <section>
-            <h2 class="title-color">Наша команда</h2>
+            <h2 class="title-heading-center">Наша команда</h2>
             <ul>
                 <li>
                     <img src="./images/photo1.jpg" alt="">
-                    <h3 class="title-color">Николай Кучеренко</h3>
-                    <p class="text-color">   Product Designer</p>
+                    <h3 class="title-color title-team">Николай Кучеренко</h3>
+                    <p class="text-color text-team">   Product Designer</p>
                     <ul>
                         <li><a href="" aria-label="instagram icon">instagram</a></li>
                         <li><a href="" aria-label="twitter icon">twitter</a></li>
@@ -113,8 +126,8 @@
 
                 
                     <img src="./images/photo2.jpg" alt="">
-                    <h3 class="title-color">Ольга Иванова</h3>
-                    <p class="text-color">Frontend Developer</p>
+                    <h3 class="title-color title-team">Ольга Иванова</h3>
+                    <p class="text-color text-team">Frontend Developer</p>
                     <ul>
                         <li><a href="" aria-label="instagram icon">instagram</a></li>
                         <li><a href="" aria-label="twitter icon">twitter</a></li>
@@ -124,8 +137,8 @@
                     
                     <li>
                         <img src="./images/photo3.jpg" alt="">
-                        <h3 class="title-color">Андрей Шевченко</h3>
-                        <p class="text-color">Marketing</p>
+                        <h3 class="title-color title-team">Андрей Шевченко</h3>
+                        <p class="text-color text-team">Marketing</p>
                         <ul>
                             <li><a href="" aria-label="instagram icon">instagram</a></li>
                             <li><a href="" aria-label="twitter icon">twitter</a></li>
@@ -137,8 +150,8 @@
 
                     <li>
                         <img src="./images/photo4.jpg" alt="">
-                        <h3 class="title-color">Иван Николаев</h3>
-                        <p class="text-color">UI Designer</p>
+                        <h3 class="title-color title-team">Иван Николаев</h3>
+                        <p class="text-color text-team">UI Designer</p>
                         <ul>
                             <li><a href="" aria-label="instagram icon">instagram</a></li>
                             <li><a href="" aria-label="twitter icon">twitter</a></li>
@@ -155,7 +168,7 @@
 
         <!-- Постоянные клиенты -->
         <section>
-            <h2 class="title-color">Постоянные клиенты</h2>
+            <h2 class="title-heading-center">Постоянные клиенты</h2>
             <ul>
                 <li>
                     <a href="">
@@ -194,8 +207,12 @@
     </main>
 
 <footer>
-    <a href="">Web Studio</a>
-    <ul>
+    <a href="" class="logo">
+        <div>Web</div> 
+        <div class="logo-studio">Studio</div> 
+    </a>
+
+    <ul class="footer-adress">
         <li class="text-adress">г. Киев, пр-т Леси Украинки, 26</li>
         <li class="text-color">info@example.com</li>
         <li class="text-color">+38 099 111 11 11</li>
@@ -210,7 +227,8 @@
     </ul>
 
     <p class="title-headline">Подпишитесь на рассылку</p>
-    <p class="hero-button">Подписаться</p>
+    <input type="email">
+    <button class="hero-button">Подписаться</button>
     
 </footer>
 

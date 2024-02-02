@@ -1,0 +1,51 @@
+:root{
+    --primary-color: #757575;
+    --first-color: #212121;
+    --hover-blue-color: #2196F3;
+    --white-color: #ffffff; 
+    --background-color: #F5F4FA;
+
+}
+
+/* Кнопочки мини-выбора */
+.list-choice{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.list-link{
+    color: var(--first-color);
+}
+
+/* Заголовки и их свойства */
+.title-service{
+    font-weight: 700;
+    color: var(--first-color);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.6;
+}
+/* Текст-подсказка при наведении */
+.title-headline{
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.text-service{
+    font-size: 16px;
+    line-height: 1.9;
+    
+}
+
+
+
+
+
+/* Описания и их свойства */
+
+
+
+
