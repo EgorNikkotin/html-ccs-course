@@ -1,3 +1,15 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    block-size: inherit;
+}
+
+
+
 :root{
     --primary-color: #757575;
     --first-color: #212121;
@@ -10,10 +22,13 @@
 /* Глобальные свойства */
 body{
     background-color: aqua;
-
+    
     font-family: Roboto, sans-serif;
     font-weight: 400;
     letter-spacing: 0.3;
+
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 a{
@@ -27,11 +42,21 @@ a{
 /* Селектор уборки точек */
 ul{
     list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/* header */
+.header{
+    background-color: var(--white-color);
+    width: auto;
+    height: auto;
 }
 
 /* Свойства логотипа */
 .logo{
-
+    display: block;
     color: #2196F3;
     font-weight: 700;
     font-size: 26px;
@@ -46,9 +71,13 @@ ul{
 
 /* свойства навигации */
 .title-nav{
+    
     font-weight: 500;
     color: var(--first-color);
     font-size: 14px;
+    line-height: 1.2;
+   
+
 }
 
 /* Выбранная страница */
@@ -63,6 +92,9 @@ ul{
     color: var(--first-color);
     text-align: center;
     font-size: 36px;
+
+    margin-top: 0;
+    margin-bottom: 50;
 }
 /* Цвет текста, предложение под заголовком */
 .text-color{
@@ -77,56 +109,174 @@ ul{
 
 /* her0 */
 
+.hero{
+    
+}
+
 .hero-title{
     color: var(--white-color);
     text-align: center;
     font-size: 44px;
     line-height: 1.4;
     letter-spacing: 0.6;
+    margin-top: 200px;
+    margin-bottom: 30px;
+    
 }
 .hero-button{
+    display: block;
+
     color: var(--white-color);
     background-color: var(--hover-blue-color);
-    /* хуй его знает как выровнять кнопку */
-    text-align: center; 
+
+
+    min-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 10px;
+  
+
+    font-weight: 700;
     font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.6;
+
+    margin-bottom: 318px;
+
+    
+    
 }
 
 /* Особенности */
 
+.features{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .title-features{
     font-weight: 700;
     font-size: 14px;
-
+    
+    margin-top: 0;
+    margin-bottom: 0;
 }
+
+.features-class{
+    text-align: center;
+    margin-bottom: 94px;
+}
+
 /* Свойства описание особенностей */
 .description-features{
     font-size: 14px;
+
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
+
+/* Чем мы занимаемся */
+.headline{
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 188px;
+
+    
+}
+
+
 /* свойства "Наша команда" */
+.img-team{
+    margin-bottom: 30px;
+}
+
 .title-team{
     font-weight: 500;
     font-size: 16px;
+
+    margin-top: 0;
+    margin-bottom: 10px;
+    
+
 }
 .text-team{
     font-size: 16px;
+
+    margin-bottom: 16px;
+    margin-top: 0;
 }
 
+.team{
+    text-align: center;
+
+    margin-bottom: 212px;
+
+}
 /* footer */
-.footer-adress{
+.footer-adress > li{
     font-size: 14px;
     line-height: 1.7;
+
+    margin-bottom: 9px;
 }
+
+.button-sub{
+    display: inline-block;
+    background-color: var(--hover-blue-color);
+    color: var(--white-color);
+    padding: 10px 45px;
+    border-radius: 4px;
+    min-width: 91px;
+    border: var(--hover-blue-color);
+
+}
+
+.logo-footer{
+    color: #2196F3;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    display: block;
+
+    margin-bottom: 20px;
+
+}
+
 
 .title-headline{
     color: var(--white-color);
     font-weight: 700;
     font-size: 14px;
+
+    margin-top: 0;
+    margin-bottom: 20px;
     
 }
 
 .text-adress{
     color: var(--white-color);
+}
+
+
+
+.container{
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: #F5F4FA solid 2px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
 }
 

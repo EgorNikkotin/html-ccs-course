@@ -13,6 +13,8 @@
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
+
+    margin-bottom: 50px;
 }
 
 .list-link{
@@ -20,23 +22,39 @@
 }
 
 /* Заголовки и их свойства */
+.img-service{
+    display: block;
+    margin-bottom: 20px;
+}
+
+
 .title-service{
     font-weight: 700;
     color: var(--first-color);
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.6;
+
+    margin-top: 0;
+    margin-bottom: 4px;
 }
 /* Текст-подсказка при наведении */
 .title-headline{
     font-size: 18px;
     line-height: 1.6;
     font-weight: 400;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
 }
 
 .text-service{
     font-size: 16px;
     line-height: 1.9;
+
+    margin-top: 0px;
+    margin-bottom: 50px;
     
 }
 

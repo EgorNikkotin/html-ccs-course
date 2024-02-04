@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Sixtyfour&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
+
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/portfolio.css">
 
@@ -18,13 +21,10 @@
 
 <body>
     <!-- Шапка сайта\навигация по сайту -->
-    <header class="">
-        <a href="" class="logo">
-            <div>Web</div> 
-            <div class="logo-studio">Studio</div> 
-        </a>
+    <header class="header">
+        <a href="" class="logo container">Web <span class="logo-studio">Studio</span></a>
 
-        <nav class="">
+        <nav class="container ">
             <ul>
                 <li>
                     <a href="./index.html" class=" title-nav ">Студия</a>
@@ -40,7 +40,7 @@
             </ul>
         </nav>
         
-        <ul>
+        <ul class="container">
             <li> 
                 <a href="" aria-label="Иконка почты">Почта </a>
                 <a href="" class="feedback-button">info@devstudio.com</a>
@@ -55,7 +55,7 @@
 
     <main>
         <!-- Секция кнопок, выбор нужного -->
-        <section>
+        <section class="container">
             <ul class="list-choice">
                 <li><a href="" class="list-link">Все</a></li>
                 <li><a href="" class="list-link">Веб-сайты</a></li>
@@ -68,10 +68,10 @@
         </section>
 
         <!-- Выбор услуг -->
-        <section>
+        <section class="container">
             <ul>
                 <a href="">
-                    <img src="./images-portfolio/img 1.jpg" alt="">
+                    <img src="./images-portfolio/img 1.jpg" class="img-service" alt="">
                     <h2 class="title-color title-service">Технокряк</h2>
                     <p class="text-color text-service">Веб-сайт</p>
                     <p class="title-headline">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
@@ -148,10 +148,8 @@
     </main>
 
     <footer>
-        <a href="" class="logo">
-            <div>Web</div> 
-            <div class="logo-studio">Studio</div> 
-        </a>
+        <a href="" class="logo-footer container">Web <span class="logo-studio">Studio</span></a>
+    
     
         <ul class="footer-adress">
             <li class="text-adress">г. Киев, пр-т Леси Украинки, 26</li>
@@ -169,7 +167,7 @@
     
         <p class="title-headline">Подпишитесь на рассылку</p>
         <input type="email">
-        <button class="hero-button">Подписаться</button>
+        <button class="button-sub">Подписаться</button>
         
     </footer>
 </body>

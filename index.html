@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Sixtyfour&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
+
+
     <link rel="stylesheet" href="./css/index.css">
     
     
@@ -18,13 +21,10 @@
 </head>
 <body>
     <!-- Шапка сайта\навигация по сайту -->
-    <header class="">
-        <a href="" class="logo">
-            <div>Web</div> 
-            <div class="logo-studio">Studio</div> 
-        </a>
+    <header class="header">
+        <a href="" class="logo container">Web <span class="logo-studio">Studio</span></a>
 
-        <nav class="">
+        <nav class="container ">
             <ul>
                 <li>
                     <a href="./index.html" class=" title-nav link-nav current">Студия</a>
@@ -40,7 +40,7 @@
             </ul>
         </nav>
         
-        <ul>
+        <ul class="container">
             <li> 
                 <a href="" aria-label="Иконка почты">Почта </a>
                 <a href="" class="feedback-button">info@devstudio.com</a>
@@ -56,15 +56,15 @@
     <main>
         <!-- her0 -->
         <section class="hero">
-            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+            <h1 class="hero-title container">Эффективные решения для вашего бизнеса</h1>
             <a href="" class="hero-button">Заказать услугу</a>
         </section>
 
 
     <!-- Особенности -->
         <section>
-            <h2><em>Особенности</em></h2>
-            <ul >
+            <h2><em class="features">Особенности</em></h2>
+            <ul class="container features-class" >
                 <li>
                     <a href="" aria-label="Иконка спутника" class="bg-color">спутник</a>
                     <h3 class="title-color title-features">Внимание к деталям</h3>
@@ -89,9 +89,9 @@
         </section>
 
     <!-- Чем мы занимаемся -->
-        <section>
+        <section class="container">
             <h2  class="title-heading-center ">Чем мы занимаемся</h2>
-            <ul>
+            <ul class="headline ">
                 <li>
                     <img src="./images/desktop-dev.jpg" alt="">
                     <p class="title-headline">Десктопные приложения</p>
@@ -102,17 +102,17 @@
                 </li>
                 <li>
                     <img src="./images/desiner.jpg" alt="">
-                    <p class="title-headline">Дизайнерские решения</p>
-                </li>
+                    <p>Дизайнерские решения</p>
+                </li class="headline">
             </ul>
         </section>
 
         <!-- Наша команда -->
-        <section>
+        <section class="container team">
             <h2 class="title-heading-center">Наша команда</h2>
             <ul>
                 <li>
-                    <img src="./images/photo1.jpg" alt="">
+                    <img src="./images/photo1.jpg" class="img-team" alt="">
                     <h3 class="title-color title-team">Николай Кучеренко</h3>
                     <p class="text-color text-team">   Product Designer</p>
                     <ul>
@@ -125,7 +125,7 @@
                 </li>
 
                 
-                    <img src="./images/photo2.jpg" alt="">
+                    <img src="./images/photo2.jpg" class="img-team" alt="">
                     <h3 class="title-color title-team">Ольга Иванова</h3>
                     <p class="text-color text-team">Frontend Developer</p>
                     <ul>
@@ -136,7 +136,7 @@
                     </ul>
                     
                     <li>
-                        <img src="./images/photo3.jpg" alt="">
+                        <img src="./images/photo3.jpg" class="img-team" alt="">
                         <h3 class="title-color title-team">Андрей Шевченко</h3>
                         <p class="text-color text-team">Marketing</p>
                         <ul>
@@ -149,7 +149,7 @@
                     </li>
 
                     <li>
-                        <img src="./images/photo4.jpg" alt="">
+                        <img src="./images/photo4.jpg" class="img-team" alt="">
                         <h3 class="title-color title-team">Иван Николаев</h3>
                         <p class="text-color text-team">UI Designer</p>
                         <ul>
@@ -167,9 +167,9 @@
 
 
         <!-- Постоянные клиенты -->
-        <section>
-            <h2 class="title-heading-center">Постоянные клиенты</h2>
-            <ul>
+        <section class="container">
+            <h2 class="title-heading-center ">Постоянные клиенты</h2>
+            <ul >
                 <li>
                     <a href="">
                         <img src="./images/logo1.svg" alt="">
@@ -207,10 +207,8 @@
     </main>
 
 <footer>
-    <a href="" class="logo">
-        <div>Web</div> 
-        <div class="logo-studio">Studio</div> 
-    </a>
+    <a href="" class="logo-footer container">Web <span class="logo-studio">Studio</span></a>
+
 
     <ul class="footer-adress">
         <li class="text-adress">г. Киев, пр-т Леси Украинки, 26</li>
@@ -228,7 +226,7 @@
 
     <p class="title-headline">Подпишитесь на рассылку</p>
     <input type="email">
-    <button class="hero-button">Подписаться</button>
+    <button class="button-sub">Подписаться</button>
     
 </footer>
 
