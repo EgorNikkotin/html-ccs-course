@@ -4,28 +4,76 @@
     --hover-blue-color: #2196F3;
     --white-color: #ffffff; 
     --background-color: #F5F4FA;
+    --border--color: #EEEEEE;
 
 }
 
 /* Кнопочки мини-выбора */
+
 .list-choice{
+    display: flex;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
+    align-items: center;
 
+    justify-content: center;
+
+    
+    margin-top: 93px;
     margin-bottom: 50px;
 }
 
 .list-link{
     color: var(--first-color);
+
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-right: 8px;
+    
+    border-radius: 4px;
+    background-color: var(--background-color);
+}
+
+.list-link:hover{
+    color: var(--white-color);
+    background-color: var(--hover-blue-color);
 }
 
 /* Заголовки и их свойства */
+
+.service {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -40px;
+    margin-right: 0;
+    
+    
+}
+
+.service .li-service-3th:nth-child(3n){
+    margin-right: 0;
+}
 .img-service{
     display: block;
+    
+    width: 370px;
+    height: 294px;
+
+    
+    margin-bottom: 20px;
+
+  
+
     margin-bottom: 20px;
 }
+
+
+
 
 
 .title-service{
@@ -37,9 +85,22 @@
 
     margin-top: 0;
     margin-bottom: 4px;
+    margin-left: 24px;
 }
+
+.li-service{
+    margin-right: 25px;
+    border: var(--border--color) solid 1px;
+    margin-bottom: 25px;
+}
+
+
+
 /* Текст-подсказка при наведении */
 .title-headline{
+
+    display: none;
+
     font-size: 18px;
     line-height: 1.6;
     font-weight: 400;
@@ -50,14 +111,19 @@
 }
 
 .text-service{
+
     font-size: 16px;
     line-height: 1.9;
 
     margin-top: 0px;
-    margin-bottom: 50px;
+    margin-left: 24px;
     
 }
 
+.service{
+    
+    margin-bottom: 94px;
+}
 
 
 
