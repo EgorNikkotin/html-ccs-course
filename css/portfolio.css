@@ -8,6 +8,10 @@
 
 }
 
+
+
+
+
 /* Кнопочки мини-выбора */
 
 .list-choice{
@@ -37,6 +41,9 @@
     
     border-radius: 4px;
     background-color: var(--background-color);
+
+    transition: color 200ms linear, 
+    background-color 200ms linear;
 }
 
 .list-link:hover{
@@ -92,22 +99,65 @@
     margin-right: 25px;
     border: var(--border--color) solid 1px;
     margin-bottom: 25px;
+
+    transition: box-shadow 200ms linear;
+}
+
+
+.headline-shadow{
+    position: relative;
+    
+}
+
+
+.li-service:hover{
+    box-shadow: 
+    0 2px 1px 0 rgba(0, 0, 0, 0.2), 
+    0 1px 1px 0 rgba(0, 0, 0, 0.14), 
+    0 1px 3px 0 rgba(0, 0, 0, 0.12);
+    
 }
 
 
 
+.title-headline-service:hover{
+    background-color: rgba(33, 150, 243, 0.9);
+    opacity: 1;
+    color: var(--white-color);
+
+    transition: 
+    background-color 250ms linear,
+    color 250ms linear;
+}    
+
 /* Текст-подсказка при наведении */
-.title-headline{
-
-    display: none;
-
+.title-headline-service{
+    position: absolute;
+    
     font-size: 18px;
     line-height: 1.6;
     font-weight: 400;
-
-    margin-top: 0px;
-    margin-bottom: 0px;
     
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 76%;
+
+    padding-top: 63px;
+    padding-bottom: 63px;
+    padding-left: 24px;
+    padding-right: 30px;
+
+    margin-top: 0;
+    margin-bottom: 0;
+    
+    color: var(--white-color);
+    opacity: 0;
+    
+    transition: 
+    background-color 250ms linear,
+    color 250ms linear;
 }
 
 .text-service{

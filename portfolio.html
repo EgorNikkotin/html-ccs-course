@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,36 +20,52 @@
 </head>
 
 <body>
-        <!-- Шапка сайта\навигация по сайту -->
-    <header class="header container">
-        <a href="" class="logo">Web <span class="logo-studio"> Studio</span></a>
-
-        <nav class="container pre-nav ">
-            <ul class="ul-nav">
-                <li class="nav-li">
-                    <a href="./index.html" class=" title-nav">Студия</a>
+    <!-- Шапка сайта\навигация по сайту -->
+    <div class="header-border">
+        <header class="header container">
+            <a href="" class="logo">Web <span class="logo-studio"> Studio</span></a>
+    
+            <nav class="container pre-nav ">
+                <ul class="ul-nav">
+                    <li class="nav-li">
+    
+                        <a href="./index.html" class=" title-nav">Студия</a>
+                    </li>
+    
+                    <li class="nav-li">
+                        <div class="line-active-link">
+                            <a href="./portfolio.html" class="title-nav link-nav current">Портфолио</a>
+                            <div class="bottom-line"></div>
+                        </div>
+                    </li>
+    
+                    <li class="nav-li">
+                        <a href="" class="title-nav title-nav-last">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <ul class="container feedback">
+                <li class="li-mail"> 
+                    <a href="mailto:info@devstudio.com" class="feedback-button feedback-button-1 " >
+                        <svg class="icon-mail">
+                            <use  href="./images-svg/sprite.svg#icon-mail"></use>
+                        </svg>                  
+                        info@devstudio.com
+                    </a>
                 </li>
-
-                <li class="nav-li">
-                    <a href="./portfolio.html" class="title-nav link-nav current">Портфолио</a>
-                </li>
-
-                <li class="nav-li">
-                    <a href="" class="title-nav title-nav-last">Контакты</a>
+    
+                <li>
+                    <a href="" class="feedback-button " >
+                        <svg class="icon-tel">
+                            <use  href="./images-svg/sprite.svg#icon-tel"></use>
+                        </svg>
+                        
+                        +38 096 111 11 11</a>
                 </li>
             </ul>
-        </nav>
-        
-        <ul class="container feedback">
-            <li> 
-                <a href="" class="feedback-button feedback-button-1"> <img src="./images-temporary/mail.svg" class="feedback-img" alt="">info@devstudio.com</a>
-            </li>
-
-            <li>
-                <a href="" class="feedback-button"> <img src="./images-temporary/tel.svg" class="feedback-img" alt="">+38 096 111 11 11</a>
-            </li>
-        </ul>
-    </header>
+        </header>
+    </div>
 
     <main>
         <!-- Секция кнопок, выбор нужного -->
@@ -69,12 +85,20 @@
         <section class="container">
             <ul class="service ">
                 <li class="li-service">
-                    <a href="">
-                    <img src="./images-portfolio/img 1.jpg" class="img-service" alt="">
-                    <h2 class="title-color title-service">Технокряк</h2>
-                    <p class="text-color text-service">Веб-сайт</p>
-                    <p class="title-headline">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
-                </a> 
+                    <div class="headline-shadow">
+                        <a href="" class="">
+                            <img src="./images-portfolio/img 1.jpg" class="img-service" alt="">
+                            <h2 class="title-color title-service">Технокряк</h2>
+                            <p class="text-color text-service">Веб-сайт</p>
+                            <p class="title-headline-service">
+                                Технокряк это современная площадка 
+                                распространения коронавируса. Компании 
+                                используют эту платформу для цифрового 
+                                шпионажа и атак на защищённые сервера 
+                                конкурентов.
+                            </p>
+                        </a>
+                    </div> 
                 </li>
                 <li class="li-service">
                     <a href="">
@@ -155,10 +179,30 @@
                 <p class="title-headline-footer">ПРИСОЕДИНЯЙТЕСЬ</p>
                 
                 <ul class="svg-footer-team">
-                    <li><img src="./svg-cocial-white/instagram.svg" class="svg-footer" alt=""></li>
-                    <li><img src="./svg-cocial-white/twitter.svg" class="svg-footer" alt=""></li>
-                    <li><img src="./svg-cocial-white/facebook.svg" class="svg-footer" alt=""></li>
-                    <li><img src="./svg-cocial-white/linkedin.svg" class="svg-footer" alt=""></li> 
+                    <li>
+                        <svg class="svg-footer" width="20px" height="20px">
+                            <use href="./images-svg/sprite.svg#icon-instagram-white"></use>
+                        </svg>
+                    </li>
+    
+                    <li>
+                        <svg class="svg-footer" width="20px" height="20px">
+                            <use href="./images-svg/sprite.svg#icon-twitter-white"></use>
+                        </svg>
+                    </li>
+    
+                    <li>
+                        <svg class="svg-footer" width="20px" height="20px">
+                            <use href="./images-svg/sprite.svg#icon-facebook-white"></use>
+                        </svg>
+                    </li>
+    
+                    <li>
+                        <svg class="svg-footer" width="20px" height="20px">
+                            <use href="./images-svg/sprite.svg#icon-linkedin-white"></use>
+                        </svg>
+                    </li>
+    
                 </ul>
             </div>
         
