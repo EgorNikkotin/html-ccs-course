@@ -12,6 +12,13 @@
         margin-right: auto;
         
     }
+
+    @media screen and (min-width:1120px) {
+        display: flex;
+        flex-wrap: nowrap;
+        max-width: 1120px;
+        margin-left: 30px;
+    }
 }
 
 .bg-team{
@@ -20,6 +27,12 @@
     margin-left: -40px;
     text-align: center;
     margin-bottom: 60px;
+
+    @media screen and (min-width:1120px) {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
 
 }
 
@@ -36,6 +49,11 @@
     line-height: 1.4;
     letter-spacing: 0.3;
 
+    @media screen and (min-width:1120px) {
+        font-size: 36px;
+        margin-bottom: 50px;
+    }
+
 }
 .border-team{
     list-style: none;
@@ -49,6 +67,18 @@
     0 4px 8px 0 rgba(0, 0, 0, 0.04);
     border-radius: 4px;
     margin-bottom: 30px;
+
+    @media screen and (min-width:1120px) {
+        width: 270px;
+        
+        &:nth-child(1n){
+            margin-right: 30px;
+        }
+        &:nth-child(2){
+            margin-right: 15px;
+        }
+
+    }
 }
 
 // Николай Кучеренко
@@ -80,7 +110,12 @@
         background-repeat: no-repeat;
         
     }
-   
+    
+    @media screen and (min-width:1120px) {
+        width: 250px;
+        
+        
+    }
     
 }
 
@@ -104,6 +139,11 @@
     color: $primary-color;
 
     margin-bottom: 16px;
+
+    @media screen and (min-width:1120px) {
+        margin-bottom: 25px;
+        
+    }
 }
 
 // иконки соц сетей
@@ -122,9 +162,11 @@
     height: 20px;
     margin-bottom: 36px;
 
-    &:hover{
-        background-color: aqua;
-    }
+    cursor: pointer;
+
+    // &:hover{
+    //     background-color: aqua;
+    // }
 }
 
 // Ольга Иванова
@@ -154,7 +196,10 @@
         
         
     }
-   
+    @media screen and (min-width:1120px) {
+        width: 250px;
+        margin-right: 0px;
+    }
     
 }
 
@@ -188,7 +233,10 @@
         background-repeat: no-repeat;
         
     }
-   
+    @media screen and (min-width:1120px) {
+        width: 250px;
+        
+    }
 }
 
 .border-nomalize{
@@ -208,7 +256,7 @@
     margin-left: auto;
 
     @media screen and (max-width:767px) {
-        background-image: url(../image/img-andrey.jpg);
+        background-image: url(../image/img-ivan.jpg);
         background-size: cover;
         width: auto;
         height: 320px;
@@ -225,6 +273,9 @@
         background-repeat: no-repeat;
         
     }
-   
+    @media screen and (min-width:1120px) {
+        width: 250px;
+        
+    }
     
 }

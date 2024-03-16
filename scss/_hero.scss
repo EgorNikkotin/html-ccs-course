@@ -1,4 +1,10 @@
 @import "_colors";
+.hero-normalize .container{
+    @media screen and (min-width:1120px) {
+        width: 100%;
+
+    }
+}
 
 .bg-image-hero{
     position: relative;
@@ -84,6 +90,12 @@
     display: inline-block;
     margin-top: 118px;
     margin-bottom: 198px;
+
+    @media screen and (min-width:1120px) {
+        font-size: 44px;
+        top:50px;
+        
+    }
     
     
 }
@@ -113,5 +125,10 @@
     background-color: $secondary-color;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     border: solid $secondary-color 1px;
+
+    @media screen and (min-width:1120px) {
+        top: 352px
+        
+    }
     
 }

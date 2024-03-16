@@ -2,8 +2,23 @@
 .normalize-portfolio{
     justify-content: center; 
     display: flex;
-    margin-left: -40px;
+    margin-left: -60px;
+
     
+        position: relative;
+        padding-left: 15px;
+        padding-right: 15px;
+        @media screen and (min-width:1120px) {
+            width: auto;
+            flex-wrap: wrap;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+     
+    
+    
+  
 }
 
 .nav-hovered{
@@ -29,7 +44,7 @@
     padding-top: 77px;
     padding-left: 24px;
     padding-right: 24px;
-    padding-bottom: 70px;
+    padding-bottom: 62px;
     color: white;
     opacity: 0;
     
@@ -101,15 +116,6 @@
     }
 }
 
-// Само портфолио
-
-// .normalize-portfolio{
-//     @media screen and (min-width:768px) {
-//         display: flex;
-//         flex-wrap: nowrap;
-        
-//     }
-// }
 
 .border-portfolio{
     position: relative;
@@ -121,26 +127,32 @@
     border: 1px solid rgba(238, 238, 238, 1);
 
     transition: box-shadow 250ms linear;
-
+    cursor: pointer;
     &:hover{
         box-shadow: 
         1px 4px 6px 0 rgba(0, 0, 0, 0.16), 
         0 4px 4px 0 rgba(0, 0, 0, 0.06), 
         0 1px 1px 0 rgba(0, 0, 0, 0.12);
     }
-
-    @media screen and (min-width:768px) {
-        
-        &:last-child{
-            // display: flex;
-            flex-wrap: wrap-reverse;
-        }
+    @media screen and (min-width:1120px) {
+        width: 350px;
+        // margin-right: 0px;
     }
+
+    
 }
 
 .img-portfolio{
     width: 353px;
+    height: 282px;
     margin-bottom: 20px;
+    
+
+    @media screen and (min-width:1120px) {
+        width: 350px;
+        height: 274px;
+          
+    }
 }
 
 .title-portfolio{
@@ -175,5 +187,12 @@
         width: 800px;
         
     }
+    @media screen and (min-width:1120px) {
+        width: 1170px;
+        margin-left: -40px;
+        
+    }
+
+    
    
 }
