@@ -29,14 +29,14 @@
             <button data-open-navigation data-close-navigation class="mobile-button"></button>
                 <div data-backdrop-navigation class="mobile-button-window">
                     <section class="nav-header nav-header-open">
-                        <ul>
-                            <li>
-                                <a href="./index.html" class="nav nav-first">Студия</a>
+                        <ul class="flex-nav">
+                            <li class="flex-element">
+                                <a href="./index.html" class="nav nav-first">Студия</span></a>
                             </li>
-                            <li>
-                                <a href="" class="nav nav-hovered">Портфолио<span class="bottom-line-studio"></span></a>
+                            <li  class="flex-element">
+                                <a href="./portfolio.html" class="nav nav-hovered">Портфолио <span class="bottom-line-studio"></span></a>
                             </li>
-                            <li>
+                            <li  class="flex-element">
                                 <a href="" class="nav nav-last">Контакты</a>
                             </li>
                         </ul>
@@ -67,6 +67,7 @@
                                 
                             </li>
                         </ul>
+                
                 </div>
         </div>
                     </section>
@@ -161,16 +162,19 @@
     <!-- подвал -->
     <footer class="bg-footer">
         <div class="container">
-            <div class="logo logo-footer">
-                <p>Web <span>Studio</span></p>
+            <div class="contacts-flex">
+                <div class="logo logo-footer">
+                    <p>Web <span>Studio</span></p>
+                </div>
+            
+                <div class="normalize-contacts">
+                    <a class="link-map" href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4265807,30.5383858,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858!16s%2Fg%2F1tctq5jv?entry=ttu">
+                        г. Киев, пр-т Леси Украинки, 26</a>
+                    <a class="link-mail-contact" href="mailto:info@example.com">info@example.com</a>
+                    <a class="link-tel-contact" href="tel:+380991111111">+38 099 111 11 11</a>
+                </div>
             </div>
             
-            <div class="normalize-contacts">
-                <a class="link-map" href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4265807,30.5383858,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858!16s%2Fg%2F1tctq5jv?entry=ttu">
-                    г. Киев, пр-т Леси Украинки, 26</a>
-                <a class="link-mail-contact" href="mailto:info@example.com">info@example.com</a>
-                <a class="link-tel-contact" href="tel:+380991111111">+38 099 111 11 11</a>
-            </div>
             <!-- Присоединяйтесь -->
             <div class="normalize-social">
                 <p class="title-social">Присоединяйтесь</p>
@@ -205,7 +209,7 @@
             <!-- рассылка -->
             <div class="nomalize-mail">
                 <form class="flex-mail">
-                    <input class="inpit-mail" placeholder="E-mail" autocomplete="off" type="email" id="input-linked">
+                    <input class="input-mail" placeholder="E-mail" autocomplete="off" type="email" id="input-linked">
                     <label class="title-mail" for="input-linked">Подпишитесь на рассылку</label>
                 </form>
                 <button class="button-subscribe">

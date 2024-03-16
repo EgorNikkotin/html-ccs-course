@@ -124,9 +124,23 @@
         @media screen and (min-width: 768px) {
             display: flex;
             position: absolute;
+            
             top: 32px;
             left: 147px;
         }
+        @media screen and (min-width:850px) {
+            margin-left: 40px;
+            
+        }
+        @media screen and (min-width:950px) {
+            margin-left: 60px;
+            
+        }
+        @media screen and (min-width:1120px) {
+            margin-left: 85px;
+            
+        }
+
     }
 }
 .nav-header.nav-header-open{
@@ -152,6 +166,7 @@
         align-items: center;
         
     }
+    
     
     transition: color 200ms linear;
     

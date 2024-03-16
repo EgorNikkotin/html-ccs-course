@@ -43,7 +43,20 @@
         color: white;
         background-color: rgba(33, 150, 243, 0.9);
     }
-    
+   
+}
+
+.buttons{
+    @media screen and (min-width:768px) {
+        display: flex;
+        
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
 }
 
 .button-portfolio{
@@ -74,13 +87,29 @@
 
     &:first-child{
         margin-top: 60px;
+        @media screen and (min-width:768px) {
+            margin-top: 0px;
+            
+        }
     }
     &:last-child{
         margin-bottom: 40px;
+        @media screen and (min-width:768px) {
+            margin-bottom: 15px;
+            
+        }
     }
 }
 
 // Само портфолио
+
+// .normalize-portfolio{
+//     @media screen and (min-width:768px) {
+//         display: flex;
+//         flex-wrap: nowrap;
+        
+//     }
+// }
 
 .border-portfolio{
     position: relative;
@@ -98,6 +127,14 @@
         1px 4px 6px 0 rgba(0, 0, 0, 0.16), 
         0 4px 4px 0 rgba(0, 0, 0, 0.06), 
         0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    }
+
+    @media screen and (min-width:768px) {
+        
+        &:last-child{
+            // display: flex;
+            flex-wrap: wrap-reverse;
+        }
     }
 }
 
@@ -129,5 +166,14 @@
 }
 .center-port{
     display:grid;
+
+    @media screen and (min-width:768px) {
+        display: flex;
+
+        flex-wrap: wrap;
+        
+        width: 800px;
+        
+    }
    
 }

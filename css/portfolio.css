@@ -42,6 +42,24 @@
   background-color: rgba(33, 150, 243, 0.9);
 }
 
+@media screen and (min-width: 768px) {
+  .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+}
+
 .button-portfolio {
   font-weight: 500;
   font-size: 16px;
@@ -64,8 +82,18 @@
 .button-portfolio:first-child {
   margin-top: 60px;
 }
+@media screen and (min-width: 768px) {
+  .button-portfolio:first-child {
+    margin-top: 0px;
+  }
+}
 .button-portfolio:last-child {
   margin-bottom: 40px;
+}
+@media screen and (min-width: 768px) {
+  .button-portfolio:last-child {
+    margin-bottom: 15px;
+  }
 }
 
 .border-portfolio {
@@ -83,6 +111,12 @@
 .border-portfolio:hover {
   -webkit-box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
           box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+}
+@media screen and (min-width: 768px) {
+  .border-portfolio:last-child {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
 }
 
 .img-portfolio {
@@ -112,4 +146,14 @@
 
 .center-port {
   display: grid;
+}
+@media screen and (min-width: 768px) {
+  .center-port {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 800px;
+  }
 }
